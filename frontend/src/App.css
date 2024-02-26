@@ -1,0 +1,43 @@
+.create-btn {
+  align-self: flex-end;
+}
+
+.task-buttons {
+  align-self: "flex-end";
+  display:inline-flex;
+  justify-content: "space-between";
+}
+
+.complete-btn {
+  margin-right:8px;
+}
+
+.task-list {
+  margin-top: 8px;
+}
+
+.task-box {
+  border-width: 2px;
+  border-radius: 4px;
+  border-color: black;
+  border-style: solid;
+  margin-bottom: 4px;
+  /* background-color:lightcoral; */
+}
+
+.incomplete-task {
+  background-color: lightsalmon;
+}
+
+.completed-task {
+  background-color: lightseagreen;
+}
+
+.list-group-item {
+  margin-top: 4px;
+}
+
+.App {
+  background-color: bisque;
+  height: 100vh;
+}
